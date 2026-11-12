@@ -2,9 +2,8 @@
 *.tmp
 ~$*
 
-# Obsidian: keep the shared settings, ignore personal window/layout state
-.obsidian/workspace*.json
-.obsidian/cache
+# Obsidian settings (local only)
+.obsidian/
 .trash/
 
 # Raw CAD / simulation files are usually large and often confidential.
