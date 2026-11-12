@@ -6,7 +6,7 @@
 > suspension and steering**. I also built **SimQ**, the team's tool for managing simulation requests.
 > This repository documents what I designed, how I did it, and what I learned.
 
-[UFS27](media/hero.jpg) 
+![Front upright V1 – rendering](media/hero.jpg)
 
 ---
 
