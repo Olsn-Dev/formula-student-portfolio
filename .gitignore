@@ -18,3 +18,12 @@
 *.f3d
 *.rst
 *.wbpj
+
+# Inventor
+*.ipt
+*.iam
+*.idw
+*.ipn
+
+# Personal guide, local only
+GUIDE-privat.md

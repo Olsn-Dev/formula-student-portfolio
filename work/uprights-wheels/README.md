@@ -83,6 +83,12 @@ After V1 I'll decide between CNC and 3D printing.
 
 ## Testing & validation
 
+Detailed simulation, test and version reports are in [`results/`](results/).
+
+| Date | Result | Type | Outcome |
+|---|---|---|---|
+| | *Front upright V1 – FEA* (planned) | FEA | |
+
 - **Next step:** FEA of Front upright V1 under the load cases above.
 
 ## Open questions

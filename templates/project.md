@@ -22,7 +22,11 @@ What was built or decided. Numbers, images and plots.
 
 ## Testing & validation
 
-How you checked that it works.
+How you checked that it works. Detailed reports go in `results/` (template: `templates/result.md`).
+
+| Date | Result | Type | Outcome |
+|---|---|---|---|
+| | | | |
 
 ## What I learned
 
