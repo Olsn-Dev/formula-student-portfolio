@@ -14,6 +14,7 @@ File names: `YYYY-MM-DD-short-title.md`.
 ## Entries
 
 <!-- new-entry.sh adds new entries directly below this line -->
+- [2026-11-24 – Concept report v2](2026-11-24-concept-report-v2.md)
 - [2026-11-12 – SimQ first version](2026-11-12-simq-first-version.md)
 - [2026-11-11 – Front upright V1 first draft](2026-11-11-front-upright-v1-first-draft.md)
 - [2026-11-10 – Visit to KTH Formula Student](2026-11-10-visit-to-kth-formula-student.md)

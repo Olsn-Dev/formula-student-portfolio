@@ -36,11 +36,14 @@ suspension and steering. I coordinate the design with the suspension and brake g
 
 The short version for anyone skimming. Each item links to the full write-up.
 
-- **Front upright V1 designed** for CNC machining in Al 7075-T6, starting from load cases I derived
-  for cornering, braking and bumps → [details](work/uprights-wheels/README.md)
-- **Bearing selection and sizing.** I chose SKF thin-section bearings and showed that the bearing pair
-  needs ~63 mm spacing at the front and ~59 mm at the rear to reach s₀ ≥ 1.5 in cornering. That
-  spacing became a design requirement → [details](work/uprights-wheels/README.md#approach)
+- **Concept report v2 after design review.** I addressed all 17 review comments, moved everything to
+  FS Rules 2027, chose the tyres (Hoosier R35B 18.0×6.0-10), and recommended 7075-T73 for the upright
+  because of its stress corrosion resistance → [details](work/uprights-wheels/README.md#approach)
+- **Bearing sizing.** I derived the load cases and the bearing load
+  P = (Fy·R − Fz·d)/L, and showed that s₀ ≥ 1.5 needs at least 60.6 / 56.6 mm bearing spacing
+  front/rear. I set 65 / 60 mm as a design requirement → [details](work/uprights-wheels/README.md#approach)
+- **Front upright V1 designed** for CNC machining in Al 7075, with FEA next
+  → [details](work/uprights-wheels/README.md)
 - **Built SimQ, the team's simulation request queue.** A cross-platform desktop app in Rust that
   syncs without a server, with 73 automated tests and in-app updates → [details](work/simq/README.md)
 
@@ -62,9 +65,10 @@ See the [log index](log/README.md).
 
 <!-- Keep this honest: only list things that are backed up by a project or log entry. -->
 
-- **Mechanical design:** upright design for CNC in aluminium, component selection (rims, tyres, bearings)
-- **Analysis:** load case derivation, bearing sizing (static safety factor), FEA (in progress)
-- **Requirements & rules:** design to FS UK 2026 rules (T2, T10), interface coordination between groups
+- **Mechanical design:** upright design for CNC in aluminium, component and material selection (tyres, rims, bearings, 7075-T6 vs T73)
+- **Analysis:** load case derivation, bearing sizing (static safety factor), finding inconsistencies in my own assumptions, FEA (in progress)
+- **Requirements & rules:** design to FS Rules 2027 (T2.5–T2.7, T10), interface coordination between groups
+- **Working with feedback & suppliers:** revising a design report after a 17-comment review, comparing suppliers (OZ, Keizer, Braid)
 - **Software development:** Rust, desktop GUI, distributed sync without a server, CI/CD with GitHub Actions
 - **Teamwork:** coordinating with suspension and brake groups, learning from other teams (KTH visit)
 
